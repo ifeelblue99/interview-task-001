@@ -1,0 +1,70 @@
+.user-form {
+  color: rgba(0, 0, 0, 0.808);
+  padding: 0.6rem 0.7rem;
+  max-width: 280px;
+  background-color: rgba(216, 216, 216, 0.705);
+}
+form {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  padding-top: 0.5rem;
+}
+.form-span {
+  color: steelblue;
+  margin-top: 0.7rem;
+  font-size: 0.8rem;
+}
+input,
+textarea,
+#topics {
+  border-radius: 8px;
+  border: none;
+  padding: 0.5rem 0.75rem;
+}
+textarea {
+  resize: none;
+}
+#topics {
+  background-color: rgba(255, 255, 255, 0.596);
+  margin: 0.2rem 0;
+}
+#topic-holder {
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+  gap: 1.1rem 0;
+  display: flex;
+}
+#topic-holder label {
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 0.4rem 0.6rem;
+  margin-left: 0.1rem;
+  background-color: rgb(214, 214, 214);
+}
+#topic-holder input:checked + label {
+  color: white;
+  background-color: steelblue;
+  box-shadow: 1px 1px 5px steelblue;
+}
+#topic-holder input {
+  display: none;
+}
+#save-btn {
+  margin-top: 0.5rem;
+  padding: 0.3rem 0;
+  font-size: 1rem;
+  border-radius: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: steelblue;
+  transition: 300ms linear;
+}
+#save-btn:hover {
+  background-color: rgb(0, 0, 0);
+}
+#save-btn:active {
+  background-color: steelblue;
+}

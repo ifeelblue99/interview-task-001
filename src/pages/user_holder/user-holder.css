@@ -1,0 +1,13 @@
+.user-holder {
+  display: flex;
+  overflow: scroll;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 90vh;
+  padding: 1rem;
+}
+.user-holder h4 {
+  color: gray;
+  margin: 0.5rem 0.2rem;
+}
